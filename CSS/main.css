@@ -1,5 +1,5 @@
 body.aanpassen{
- background-color:green ;
+ background-color:black ;
  margin: 0px;
 }
 
@@ -9,8 +9,21 @@ h1.grootte{
     font-size: 20px;
     font-style: Bold;
     margin: 0px;
+    margin-left:20px ;
 }
 
-section.verken{
-    display: flex;
+main.twitter-inleiding{
+    margin-left:100px ;
 }
+
+section.verkennen{
+    display: flex;
+    align-items: center;
+
+}
+
+img.logo-twitter{
+    margin-top:10px ;
+    margin-bottom:15px ;
+}
+

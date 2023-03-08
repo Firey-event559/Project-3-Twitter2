@@ -18,6 +18,14 @@
             <h1  class="grootte">Verkennen</h1>
         </section>
 
+        <section> 
+            <img src="gear.png"
+        </section>
+
+
+
+    
+
 
     </main>
 

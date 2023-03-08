@@ -44,8 +44,8 @@
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
-            <img src="../img/foto-twitter.png" alt="foto-twitter" width="45px" height="45px" />
-            <input type="text" name="" id="" placeholder="Email-adress" />
+            <img class="logo-twitter2" src="../img/foto-twitter.png" alt="foto-twitter" width="45px" height="45px" />
+            <h1 class="grootte2">Inloggen op Twitter</h1>
         </div>
     </div>
 

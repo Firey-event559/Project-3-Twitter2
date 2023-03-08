@@ -1,11 +1,11 @@
 
-var modal = document.getElementById("myModal");
+let modal = document.getElementById("myModal");
 
 
-var btn = document.getElementById("popup");
+let button = document.getElementById("popup");
 
 
-var span = document.getElementsByClassName("close")[0];
+let span = document.getElementsByClassName("close")[0];
 
 
 popup.onclick = function() {
@@ -22,3 +22,5 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+

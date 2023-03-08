@@ -67,6 +67,7 @@ div.border2 {
   margin-left: 1000px;
   margin-top: -730px;
 }
+/* footer */
 
 footer.onderkant {
   background-color: #1DA1F2;
@@ -145,13 +146,7 @@ button.button-footer2:hover {
   cursor: pointer;
 }
 
-
-
-
-
-
-
-
+/* popup van Inloggen */
 
 div.modal {
   display: none;
@@ -170,9 +165,10 @@ div.modal-content {
   background-color: black;
   margin: 10% auto;
   width: 40%;
-  height: 80%;
+  height: 85%;
   border-radius: 3%;
-  margin-top: 105px;
+  margin-top: 67px;
+  margin-left:455px ;
 }
 
 
@@ -181,6 +177,10 @@ span.close {
   float: left;
   font-size: 28px;
   font-weight: bold;
+  margin-left:10px ;
+  margin-top: 9px;
+  padding-left:8px ;
+  padding-right:8px ;
 }
 
 span.close:hover,
@@ -188,9 +188,24 @@ span.close:focus {
   text-decoration: none;
   background-color: #333;
   cursor: pointer;
+  border-radius:50% ;
+  
+
+  
+ 
 }
 
 p.tekst-kleur {
   color: white;
 
+}
+h1.grootte2{
+  color: white;
+  margin-left:20px ;
+  
+}
+
+img.logo-twitter2 {
+  margin-top:5px ;
+ margin-left:225px ;
 }

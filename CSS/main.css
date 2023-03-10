@@ -1,5 +1,5 @@
 body.aanpassen {
-  background-color: red;
+  background-color: black;
   margin: 0px;
 }
 
@@ -203,4 +203,9 @@ p.tekst-kleur {
 img.logo-twitter2 {
   margin-top:5px ;
  margin-left:225px ;
+}
+
+h1.grootte2{
+  color: white;
+  margin-left:160px;
 }

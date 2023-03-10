@@ -169,6 +169,7 @@ div.modal-content {
   border-radius: 3%;
   margin-top: 67px;
   margin-left:455px ;
+
 }
 
 
@@ -186,7 +187,7 @@ span.close {
 span.close:hover,
 span.close:focus {
   text-decoration: none;
-  background-color: red;
+  background-color: #333;
   cursor: pointer;
   border-radius:50% ;
   
@@ -199,12 +200,6 @@ p.tekst-kleur {
   color: white;
 
 }
-h1.inloggen{
-  color: white;
-  
-  
-}
-
 img.logo-twitter2 {
   margin-top:5px ;
  margin-left:225px ;

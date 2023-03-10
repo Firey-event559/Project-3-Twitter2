@@ -45,7 +45,7 @@
         <div class="modal-content">
             <span class="close">&times;</span>
             <img class="logo-twitter2" src="../img/foto-twitter.png" alt="foto-twitter" width="45px" height="45px" />
-            <h1 class="grootte2">Inloggen op Twitter</h1>
+            <h1 class="inloggen">Inloggen op Twitter</h1>
         </div>
     </div>
 

@@ -24,3 +24,39 @@ window.onclick = function(event) {
 }
 
 
+
+
+let myButton = document.getElementById("popuptweede");
+let myPopup = document.getElementById("myPopup");
+let close = document.getElementsByClassName("close")[0];
+
+myButton.addEventListener("click", function() {
+  myPopup.style.display = "block";
+});
+
+close.addEventListener("click", function() {
+  myPopup.style.display = "none";
+});
+
+window.addEventListener("click", function(event) {
+  if (event.target == myPopup) {
+    myPopup.style.display = "none";
+  }
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

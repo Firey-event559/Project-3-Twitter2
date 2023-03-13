@@ -58,12 +58,9 @@
         </div>
     </div>
 
-    <div id="myPopup" class="popup">
-        <div class="popup-content">
-            <span class="close">&times;</span>
-            <p>This is a popup!</p>
-        </div>
-    </div>
+    
+    
+
 
 
 

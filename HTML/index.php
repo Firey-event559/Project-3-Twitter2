@@ -32,7 +32,7 @@
     <footer class="onderkant">
         <div class="button-display-flex">
             <button id="popup" class="button-footer">Inloggen</button>
-            <button id="popuptweede" class="button-footer2">Registreren</button>
+            <button id="popup" class="button-footer2">Registreren</button>
         </div>
         <h1 class="footer-tekst">Mis niets van wat er gebeurt</h1>
 
@@ -59,16 +59,16 @@
     </div>
 
     
+
+   
+
+   
+
+
     
 
-
-
-
-
-
-
-
-
+    
+    
     <script src="../Javascript/main.js"></script>
 </body>
 

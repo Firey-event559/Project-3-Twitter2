@@ -45,8 +45,16 @@
         <div class="modal-content">
             <span class="close">&times;</span>
             <img class="logo-twitter2" src="../img/foto-twitter.png" alt="foto-twitter" width="45px" height="45px" />
-            <h1 class="grootte2">Inloggen op Twitter</h1>
-            <h1></h1>
+            <h1 class="grootte2">Inloggen bij Twitter</h1>
+           <form>
+            <input class="form" type="text" placeholder="Emailadres">
+            <input class="form2" type="password" placeholder="password">
+            
+         <input class="form3" type="submit" value="Volgende">
+         <input class="form4" type="submit" value="Wachtwoord vergeten?">
+
+         <h2 class="Registreren">Heb je geen account? <a class="Registreren">Registreren</a> </h2>
+           </form>
         </div>
     </div>
 

@@ -67,6 +67,7 @@ div.border2 {
   margin-left: 1000px;
   margin-top: -730px;
 }
+
 /* footer */
 
 footer.onderkant {
@@ -168,20 +169,20 @@ div.modal-content {
   height: 85%;
   border-radius: 3%;
   margin-top: 67px;
-  margin-left:455px ;
+  margin-left: 455px;
 
 }
 
 
 span.close {
-  color:white;
+  color: white;
   float: left;
   font-size: 28px;
   font-weight: bold;
-  margin-left:10px ;
+  margin-left: 10px;
   margin-top: 9px;
-  padding-left:8px ;
-  padding-right:8px ;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 span.close:hover,
@@ -189,20 +190,106 @@ span.close:focus {
   text-decoration: none;
   background-color: #333;
   cursor: pointer;
-  border-radius:50% ;
-  
+  border-radius: 50%;
+
 }
 
 p.tekst-kleur {
   color: white;
 
 }
+
+/* Inloggen  */
 img.logo-twitter2 {
-  margin-top:5px ;
- margin-left:225px ;
+  margin-top: 2px;
+  margin-left: 215px;
 }
 
-h1.grootte2{
+h1.grootte2 {
+  font-size: 31px;
   color: white;
-  margin-left:160px;
+  margin-left: 145px;
+  margin-top: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+input.form {
+  margin-left: 140px;
+  padding: 16px;
+  padding-right: 115px;
+  padding-left: 20px;
+  background-color: black;
+  border-radius: 20%;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-top: 55px;
+}
+
+input.form2 {
+  margin-left: 140px;
+  padding: 16px;
+  padding-right: 115px;
+  padding-left: 20px;
+  background-color: black;
+  border-radius: 20%;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  margin-top: 30px;
+}
+
+input.form3 {
+  background-color: white;
+  padding: 12px;
+  margin-top: 20px;
+  margin-left: 135px;
+  padding-right: 235px;
+  border-radius: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+input.form3:hover {
+  cursor: pointer;
+}
+
+input.form4:hover{
+  cursor: pointer;
+}
+
+input.form4 {
+  background-color: black;
+  color: white;
+  border-color: white;
+  padding: 12px;
+  margin-top: 20px;
+  margin-left: 135px;
+  padding-right: 140px;
+  border-radius: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+h2.Registreren{
+ color: #71767b;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size:15px ;
+ margin-left:140px ;
+ margin-top:50px ;
+}
+
+a.Registreren{
+  color: #1DA1F2;
+}
+
+a.Registreren:hover{
+  text-decoration: underline;
 }

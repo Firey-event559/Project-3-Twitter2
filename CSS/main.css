@@ -220,8 +220,7 @@ input.form {
   background-color: black;
   color: white;
   border-radius: 4px;
-  margin-top: 10px;
-  margin-top: 55px;
+margin-top: 55px;
 }
 
 input.form2 {
@@ -509,10 +508,10 @@ form.account-aanmaken2 {
 
 img.logo_twitter {
   margin-top: 10px;
- 
+
 }
 
-img.logo_twitter:hover{
+img.logo_twitter:hover {
   cursor: pointer;
   background-color: #333;
   border-radius: 50%;
@@ -549,7 +548,7 @@ input.account-aanmaken5 {
   font-weight: bold;
 }
 
-input.account-aanmaken6{
+input.account-aanmaken6 {
   margin-top: 25px;
   padding: 12px;
   width: 20%;
@@ -561,7 +560,7 @@ input.account-aanmaken6{
   font-weight: bold;
 }
 
-input.account-aanmaken7{
+input.account-aanmaken7 {
   margin-top: 25px;
   padding: 12px;
   width: 20%;
@@ -573,7 +572,7 @@ input.account-aanmaken7{
   font-weight: bold;
 }
 
-input.account-aanmaken8{
+input.account-aanmaken8 {
   margin-top: 25px;
   padding: 12px;
   width: 20%;
@@ -585,12 +584,109 @@ input.account-aanmaken8{
   font-weight: bold;
 }
 
-input.account-aanmaken8:hover{
+input.account-aanmaken8:hover {
   cursor: pointer;
 }
-div.inloggen{
+
+div.inloggen {
   display: flex;
   justify-content: center;
   align-items: center;
- flex-direction: column;
+  flex-direction: column;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+}
+
+h1.tweets_plaatsen {
+ 
+  display: flex;
+  justify-content: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+body.body-tweets {
+  background-color: black;
+}
+
+div.php {
+  color: white;
+}
+
+form.tweet-tekst {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+input.tweet_button {
+  margin-top: 25px;
+  padding: 12px;
+  width: 23%;
+  padding-left: 20px;
+  background-color: white;
+  color: black;
+  border-radius: 3px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+}
+
+input.tweet_button:hover {
+  cursor: pointer;
+}
+
+div.account {
+  color: white;
+margin-top:200px ;
+}
+
+textarea.tweet_area{
+padding: 12px;
+  width: 23%;
+  padding-left: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  margin-top:20px ;
+}
+
+img.logo {
+  margin-left:700px ;
+
+}
+img.logo:hover {
+  cursor: pointer;
+  background-color: #333;
+  border-radius: 50%;
+}
+
+h1.inlog{
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+
+}
+body.achtergrond{
+  background-color: black;
+}
+input.gebruikersnaam2{
+  margin-top: 25px;
+  padding: 12px;
+  width: 20%;
+  padding-left: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
 }

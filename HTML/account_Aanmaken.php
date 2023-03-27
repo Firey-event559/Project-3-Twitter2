@@ -30,7 +30,8 @@
     $query->bindParam(":Wachtwoord", $Wachtwoord);
     $query->execute();
 
-
+    session_start();
+    $_SESSION['Gebruikersnaam'] = $Gebruikersnaam;
 
     header("Location: ../HTML/index.php");
     

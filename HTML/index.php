@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 
 <head>
     <meta charset="UTF-8" />
@@ -55,8 +56,8 @@
             <img class="logo-twitter2" src="../img/foto-twitter.png" alt="foto-twitter" width="45px" height="45px" />
             <h1 class="grootte2">Inloggen bij Twitter</h1>
             <form id="form" method="post" action="../HTML/Inloggen.php">
-            <input class="form" type="email" placeholder="Emailadres" required name="email">
-                <input class="form2" type="password" placeholder="Wachtwoord" required name="Wachtwoord" >
+            <input class="form" type="text" placeholder="Gebruikersnaam" required name="Gebruikersnaam">
+                  <input class="form2" type="password" placeholder="Wachtwoord" required name="Wachtwoord" >
                 <input class="form3" type="submit" value="Inloggen" id="inloggen" name="inloggen">
             </form>
             <button class="form4">Wachtwoord vergeten?</button>
@@ -101,6 +102,9 @@
             inclusief het <br> <a class="link3-tabel"
                 href="https://help.twitter.com/nl/rules-and-policies/twitter-cookies" target="_blank">gebruik
                 van cookies</a>.</p>
+
+
+              
 
 
 

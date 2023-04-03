@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 
 <head>
     <meta charset="UTF-8" />
@@ -47,17 +47,14 @@
         </p>
     </footer>
 
-
-
-
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
             <img class="logo-twitter2" src="../img/foto-twitter.png" alt="foto-twitter" width="45px" height="45px" />
             <h1 class="grootte2">Inloggen bij Twitter</h1>
             <form id="form" method="post" action="../HTML/Inloggen.php">
-            <input class="form" type="text" placeholder="Gebruikersnaam" required name="Gebruikersnaam">
-                  <input class="form2" type="password" placeholder="Wachtwoord" required name="Wachtwoord" >
+                <input class="form" type="text" placeholder="Gebruikersnaam" required name="Gebruikersnaam">
+                <input class="form2" type="password" placeholder="Wachtwoord" required name="Wachtwoord">
                 <input class="form3" type="submit" value="Inloggen" id="inloggen" name="inloggen">
             </form>
             <button class="form4">Wachtwoord vergeten?</button>
@@ -75,12 +72,12 @@
             <h1 class="tekst-accountaanmaken">Registreer<br> je vandaag nog op<br> Twitter</h1>
             <a href="../HTML/account_Aanmaken.php"><button class="form5">Account aanmaken</button></a>
             <p class="algemene-voorwaarden">Door je te registreren, ga je akkoord met<br> de<a class="voorwaarden"
-                        href="https://twitter.com/en/tos" target="_blank"> Algemene voorwaarden</a> en
-                    het <a class="Privacybeleid" href="https://twitter.com/en/privacy"
-                        target="_blank">Privacybeleid</a>,<br> inclusief het <a class="cookies"
-                        href="https://help.twitter.com/nl/rules-and-policies/twitter-cookies" target="_blank">gebruik
-                        van cookies</a>.</p>
-           
+                    href="https://twitter.com/en/tos" target="_blank"> Algemene voorwaarden</a> en
+                het <a class="Privacybeleid" href="https://twitter.com/en/privacy"
+                    target="_blank">Privacybeleid</a>,<br> inclusief het <a class="cookies"
+                    href="https://help.twitter.com/nl/rules-and-policies/twitter-cookies" target="_blank">gebruik
+                    van cookies</a>.</p>
+
         </div>
     </div>
 
@@ -104,7 +101,7 @@
                 van cookies</a>.</p>
 
 
-              
+
 
 
 

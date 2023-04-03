@@ -608,7 +608,7 @@ h1.tweets_plaatsen {
 }
 
 body.body-tweets {
-  background-color: black;
+  background-color:black;
 }
 
 div.php {
@@ -641,8 +641,10 @@ input.tweet_button:hover {
 }
 
 div.account {
-  color: white;
-margin-top:200px ;
+  color: black;
+display: flex;
+justify-content: center;
+  
 }
 
 textarea.tweet_area{
@@ -690,3 +692,127 @@ input.gebruikersnaam2{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
 }
+
+div.tweet{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:20px ;
+ border: solid 1px black;
+ padding:20px ;
+  background-color: white;
+  color: black;
+  border-radius: 3px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  width: 20%;
+ margin-left:39% ;
+ 
+ 
+}
+div.account2{
+ color: white;
+}
+
+button.button_like_tweets{
+ margin-top:60px ;
+}
+
+button.button_like_tweets:hover{
+  cursor: pointer;
+}
+
+div.buttons{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+button.tweets_plaatsen{
+  margin-top: 100px;
+  padding: 12px;
+  margin-left:-33px ;
+  width: 194%;
+  padding-left: 20px;
+  background-color: white;
+  color: black;
+  border-radius: 3px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  border: solid 1px black;
+ text-decoration: none;
+}
+
+button.tweets_plaatsen:hover{
+  cursor: pointer;
+}
+
+button.profiel_bewerken{
+margin-top:100px ;
+  padding: 12px;
+ margin-left:-25px ;
+  width: 166%;
+  padding-left: 20px;
+  background-color: white;
+  color: black;
+  border-radius: 3px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  border: solid 1px black;
+ text-decoration: none;
+}
+
+button.profiel_bewerken:hover{
+  cursor: pointer;
+}
+
+h1.update_tekst{
+ 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size:31px ;
+}
+form.update_account{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+
+input.update_account2{
+  margin-top: 25px;
+  padding: 12px;
+  width: 20%;
+  padding-left: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+}
+input.update_account3{
+  margin-top: 25px;
+  padding: 12px;
+  width: 20%;
+  padding-left: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+}
+input.update_account3:hover{
+  cursor: pointer;
+}
+
+
+
+
+
+
+

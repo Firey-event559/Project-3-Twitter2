@@ -25,3 +25,4 @@ $delete_tweet->execute([$tweet_id, $user_id]);
 header("Location: tweets_plaatsen.php");
 ?>
 
+

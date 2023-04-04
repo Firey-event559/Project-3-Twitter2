@@ -1,5 +1,5 @@
 <?php
- session_start();
+session_start();
  
 ?>
  <!DOCTYPE html>
@@ -14,12 +14,7 @@
  <body class="achtergrond">
     <h1 class="inlog">Inlog pagina</h1>
 
-    
-
     <?php
-
-
-
 require_once "../HTML/db.php";
 
 if (isset ($_POST['inloggen'])){
@@ -34,31 +29,29 @@ if (isset ($_POST['inloggen'])){
     $query -> execute ();
 
 
-    if ($query -> rowCount () == 1){
-        $result = $query -> fetch (PDO::FETCH_ASSOC);
-        if (password_verify ($wachtwoord, $result['wachtwoord'])){
+    if ($query->rowCount() == 1) {
+        $result = $query->fetch(PDO::FETCH_ASSOC);
+        if (password_verify($wachtwoord, $result['wachtwoord'])) {
             $_SESSION['account_id'] = $result['id'];
             $_SESSION['gebruikersnaam'] = $gebruikersnaam;
             echo "<div class='inloggen'>ingelogd als: " . $gebruikersnaam . "</div>";
-              $_SESSION['account_id'];
         } else {
-            echo  "<div class='inloggen'> " . "wachtwoord onjuist"  . "</div>"; 
-        } 
-       
+            echo "<div class='inloggen'>Niet ingelogd</div>";
+        }
     } 
-}
+    }
+    
+       
 
 
-
-
-
-
- ?>
+?>
 
     <div class="buttons">
  <a  href="../HTML/tweets.php"><button class="tweets_plaatsen">tweets plaatsen</button></a>  
 
 <a href="../HTML/update_account.php"> <button class="profiel_bewerken">profiel bewerken</button></a> 
+
+
    
 
 </div>

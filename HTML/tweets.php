@@ -32,7 +32,7 @@ if (isset($_SESSION['gebruikersnaam'])){
   echo "<div class='account2'>". "ingelogd als: " . $_SESSION['gebruikersnaam'] . "</div>";
    echo $_SESSION['account_id'];
 } else {
-echo  "<div class='account'> " .   "niet ingelogd"  . "</div>";
+echo  "<div class='account2'> " .   "niet ingelogd"  . "</div>";
 }
 
 

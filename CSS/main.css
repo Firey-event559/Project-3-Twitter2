@@ -10,6 +10,18 @@ h1.grootte {
   font-weight: bold;
   margin: 0px;
   margin-left: 20px;
+  padding:10px;
+ 
+}
+
+h1.grootte:hover{
+  cursor: pointer;
+ background-color: #333;
+  border-radius:20px ;
+}
+a.link_verkennen {
+  text-decoration: none;
+ 
 }
 
 main.twitter-inleiding {
@@ -51,6 +63,17 @@ h2.grootte {
   margin: 0px;
   margin-left: 20px;
   margin-bottom: -20px;
+  padding: 12px;
+}
+
+h2.grootte:hover {
+  cursor: pointer;
+  background-color: #333;
+  border-radius: 30px;
+}
+
+a.link_instellingen {
+  text-decoration: none;
 }
 
 
@@ -278,10 +301,13 @@ h2.Registreren {
   font-size: 15px;
   margin-left: 140px;
   margin-top: 50px;
+  text-decoration: none;
 }
 
 a.Registreren {
   color: #1DA1F2;
+  text-decoration: none;
+
 }
 
 a.Registreren:hover {
@@ -698,20 +724,28 @@ div.tweet{
   justify-content: center;
   align-items: center;
   margin-top:20px ;
- border: solid 1px black;
+ border: solid 1px white;
  padding:20px ;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   border-radius: 3px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
   width: 20%;
  margin-left:39% ;
  
- 
+}
+
+
+body.plaatsen{
+  background-color: black;
 }
 div.account2{
  color: white;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+ display: flex;
+ justify-content: center;
+  align-items: center;
 }
 
 button.button_like_tweets{
@@ -773,9 +807,21 @@ h1.update_tekst{
  
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
-  color: black;
+  color: white;
   font-size:31px ;
 }
+div.account7{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ }
+ body.update2{
+  background-color: black;
+  
+ }
+
 form.update_account{
   display: flex;
   justify-content: center;
@@ -794,6 +840,7 @@ input.update_account2{
   border-radius: 3px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
+  
 }
 input.update_account3{
   margin-top: 25px;
@@ -805,10 +852,91 @@ input.update_account3{
   border-radius: 3px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
+  border: 1px solid white;
 }
 input.update_account3:hover{
   cursor: pointer;
 }
+button.update3{
+  padding: 12px;
+  width: 5%;
+  padding-left: 15px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  border: 1px solid white;
+
+}
+button.update3:hover{
+  cursor: pointer;
+}
+
+
+body.instellingen{
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+h1.instellingen2{
+  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+img.instelling_logo:hover{
+background-color: #333;
+  border-radius: 50%;
+  cursor: pointer;
+}
+div.account5{
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:20px ;
+}
+
+div.account6{
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ margin-top:20px ;
+}
+body.body_tweet_logica{
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+img.niet_ingelogd{
+  margin-top: 20px;
+border-radius: 50%;
+  
+}
+
+img.niet_ingelogd:hover{
+  cursor: pointer;
+  background-color: #333;
+}
+div.account7{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+form.tekst{
+  color: white;
+  
+}
+
 
 
 

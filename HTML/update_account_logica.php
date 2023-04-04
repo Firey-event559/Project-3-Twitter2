@@ -2,9 +2,6 @@
 
 session_start();
 
-
-
-
 if (isset($_SESSION['gebruikersnaam'])) {
     echo "<div class='account'>Ingelogd als: " . $_SESSION['gebruikersnaam'] . "</div>";
 } else {
@@ -33,11 +30,7 @@ $nieuwe_gebruikersnaam = strip_tags($_POST['Update-gebruikersnaam']);
         $_SESSION['gebruikersnaam'] = $nieuwe_gebruikersnaam;
 
        
-        echo "<div class='success'>Gebruikersnaam succesvol gewijzigd naar " . $nieuwe_gebruikersnaam . "</div>";
-    } else {
-        
-        echo "<div class='error'>Incorrect wachtwoord</div>";
-    }
+    }  
     header("Location: ../HTML/update_account.php");
 }
 ?>

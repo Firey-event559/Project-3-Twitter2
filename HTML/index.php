@@ -18,12 +18,12 @@
         </a>
         <section class="verkennen">
             <img src="../img/hastag-logo.png" alt="hastag-logo" width="45px" height="45px" />
-            <h1 class="grootte">Verkennen</h1>
+            <a class="link_verkennen" href="index.php"><h1 class="grootte">Verkennen</h1></a>
         </section>
 
         <section class="instelling">
             <img class="gear" src="../img/gear.png" alt="gear" width="45px" height="45px" />
-            <h2 class="grootte">Instellingen</h2>
+            <a class="link_instellingen" href="Instellingen.php"><h2 class="grootte">Instellingen</h2></a>
         </section>
     </main>
 
@@ -59,7 +59,7 @@
             </form>
             <button class="form4">Wachtwoord vergeten?</button>
 
-            <h2 class="Registreren">Heb je geen account? <a id="popup3" class="Registreren">Registreren</a> </h2>
+            <h2 class="Registreren">Heb je geen account? <a href="../HTML/account_Aanmaken.php" class="Registreren">Registreren</a> </h2>
 
         </div>
     </div>
@@ -91,7 +91,7 @@
     <div class="tabel">
         <h1 class="tekst-tabel"> Nieuw op Twitter?</h1>
         <p class="tekst-tabel2">Registreer nu en krijg je eigen gepersonaliseerde<br> tijdlijn! </p>
-        <button class="account">Account aanmaken</button>
+        <a href="../HTML/account_Aanmaken.php"><button class="account">Account aanmaken</button></a>
 
         <p class="tekst-tabel3">Door je te registreren, ga je akkoord met de <a class="link-tabel"
                 href="https://twitter.com/en/tos" target="_blank">Algemene <br> voorwaarden</a> en het <a

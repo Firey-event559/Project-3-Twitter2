@@ -1,3 +1,17 @@
+<?php
+session_start();
+if (isset($_SESSION['gebruikersnaam'])) {
+  $gebruikersnaam = htmlspecialchars($_SESSION['gebruikersnaam'], ENT_QUOTES, 'UTF-8');
+  echo "<div class='account7'>" . "ingelogd als: " . $gebruikersnaam . "</div>";
+  $_SESSION['account_id'] = (int) $_SESSION['account_id']; 
+} else {
+  echo "<div class='account7'> " . "niet ingelogd" . "</div>";
+  
+} 
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,26 +21,16 @@
     <link rel="stylesheet" href="../CSS/main.css">
     <title>update account</title>
 </head>
-<body>
+<body class="update2">
+  <a href="../HTML/index.php"><button class="update3">Terug</button></a>
 
-<?php
 
-session_start();
-if (isset($_SESSION['gebruikersnaam'])){
-    echo "<div class='account'>". "ingelogd als: " . $_SESSION['gebruikersnaam'] . "</div>";
-     $_SESSION['account_id'];
-  } else {
-  echo  "<div class='account'> " .   "niet ingelogd"  . "</div>";
-  }
-  Require_once "../HTML/db.php";
-
-  ?>
 
   <form class="update_account" method="post" action="../HTML/update_account_logica.php">
     <h1 class="update_tekst">Update Gebruikersnaam</h1>
-    <input  class="update_account2" type="text" name="gebruikersnaam" placeholder="gebruikersnaam">
-    <input  class="update_account2" type="text" name="wachtwoord" placeholder="wachtwoord">
-    <input class="update_account2" type="text"  name="Update-gebruikersnaam" placeholder="Update gebruikersnaam">
+    <input  class="update_account2" type="text" name="gebruikersnaam" placeholder="gebruikersnaam" required>
+    <input  class="update_account2" type="password" name="wachtwoord" placeholder="wachtwoord" required>
+    <input class="update_account2" type="text"  name="Update-gebruikersnaam" placeholder="Update gebruikersnaam" required>
     <input class="update_account3" type="submit" value="opslaan" name="nieuwe_gebruikersnaam">
 
   </from>

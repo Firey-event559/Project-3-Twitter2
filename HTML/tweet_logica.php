@@ -1,4 +1,18 @@
-<?php
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS/main.css">
+  <title>Document</title>
+</head>
+<body class="body_tweet_logica">
+  
+ <a href="../HTML/index.php"><img class="niet_ingelogd" src="../img/foto-twitter.png" alt="foto_twitter" width="45px" height="45px"></a>
+
+  <?php
 
 
 session_start();
@@ -9,7 +23,8 @@ if (isset($_SESSION['gebruikersnaam'])){
   echo "<div class='account'>". "ingelogd als: " . $_SESSION['gebruikersnaam'] . "</div>";
   $_SESSION['account_id'];
 } else {
- echo "niet ingelogd";
+  
+ echo "<div class='account6'>" . "niet ingelogd" . "</div>";
 }
 
 
@@ -26,6 +41,9 @@ if (isset($_POST['submit-twitter-tweet']) && isset($_SESSION['account_id'])) {
   exit();
 }
 ?>
+
+</body>
+</html>
 
 
 

@@ -15,7 +15,7 @@
 <?php
 
 
- $db = new PDO("mysql:host=localhost;dbname=twitter", "root", "");
+ require_once "../HTML/db.php";
 
   if(isset($_POST['Aanmaken'])){
     $Gebruikersnaam = filter_input (INPUT_POST, 'Gebruikersnaam', FILTER_SANITIZE_STRING);
@@ -50,7 +50,7 @@
         </a>
         <h1 class="account-aanmaken3">Maak een account</h1>
 
-        <input class="account-aanmaken4" type="text" placeholder="Gebruikersnaam" required name="Gebruikersnaam">
+        <input class="account-aanmaken4" type="text" placeholder="Gebruikersnaam" required name="Gebruikersnaam" autofocus>
         <input class="account-aanmaken5" type="email" placeholder="Emailadres" required name="email">
 
         <input class="account-aanmaken6" type="date" value="date" name="geboorteDatum" required name="geboorteDatum">

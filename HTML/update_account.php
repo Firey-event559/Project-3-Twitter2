@@ -31,6 +31,7 @@ if (isset($_SESSION['gebruikersnaam'])) {
     <input  class="update_account2" type="text" name="gebruikersnaam" placeholder="gebruikersnaam" required>
     <input  class="update_account2" type="password" name="wachtwoord" placeholder="wachtwoord" required>
     <input class="update_account2" type="text"  name="Update-gebruikersnaam" placeholder="Update gebruikersnaam" required>
+    
     <input class="update_account3" type="submit" value="opslaan" name="nieuwe_gebruikersnaam">
 
   </from>

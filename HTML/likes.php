@@ -5,7 +5,7 @@ session_start();
 require_once "../HTML/db.php";
 
 if(isset($_POST['tweet_like'])) {
-    $tweet_id = $_POST['tweet_like'];
+    $tweet_id = strip_tags($_POST['tweet_like']);
     $account_id = $_SESSION['account_id']; 
 
     
@@ -28,12 +28,13 @@ if(isset($_POST['tweet_like'])) {
     }
 
     header("Location: ../HTML/tweets_plaatsen.php");
+    exit();
 }
 
 
     
 
-    exit;
+    
 
 
 

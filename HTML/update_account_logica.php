@@ -32,6 +32,7 @@ $nieuwe_gebruikersnaam = strip_tags($_POST['Update-gebruikersnaam']);
        
     }  
     header("Location: ../HTML/update_account.php");
+    exit();
 }
 ?>
 

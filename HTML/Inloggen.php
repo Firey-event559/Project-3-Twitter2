@@ -49,7 +49,9 @@ if (isset ($_POST['inloggen'])){
     <div class="buttons">
  <a  href="../HTML/tweets.php"><button class="tweets_plaatsen">tweets plaatsen</button></a>  
 
-<a href="../HTML/update_account.php"> <button class="profiel_bewerken">profiel bewerken</button></a> 
+<a href="../HTML/update_account.php"> <button class="profiel_bewerken">profiel bewerken</button></a>
+
+<a href="../HTML/index.php"><button class="terug_naar_hoofdpagina">Terug naar hoofdpagina</button></a>
 
 
    

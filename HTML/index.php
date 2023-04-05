@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../CSS/main.css" />
+    <link rel="stylesheet" href="../CSS/main.css"/>
     <title>Verkennen/ Twitter</title>
 </head>
 
@@ -57,7 +57,7 @@
                 <input class="form2" type="password" placeholder="Wachtwoord" required name="Wachtwoord">
                 <input class="form3" type="submit" value="Inloggen" id="inloggen" name="inloggen">
             </form>
-            <button class="form4">Wachtwoord vergeten?</button>
+           
 
             <h2 class="Registreren">Heb je geen account? <a href="../HTML/account_Aanmaken.php" class="Registreren">Registreren</a> </h2>
 
@@ -102,6 +102,7 @@
 
 
 
+                <h1 class="Twitter-kloon">Twitter Kloon</h1>
 
 
 

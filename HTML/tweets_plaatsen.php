@@ -37,7 +37,7 @@ if (isset($_SESSION['gebruikersnaam'])){
  foreach ($tweets as $tweet) { 
     echo "<div class='tweet'>" . $tweet['Gebruikersnaam'] . " - " . $tweet['content'] . 
         "<form class='tekst' method='POST' action='likes.php'>" . 
-        "<button name='tweet_like' value='" . $tweet['id'] . "' class='button_like_tweets'>Tweet liken</button> Geliked: " . $tweet['likes']. " " .  "door" . "<br>" .
+        "<button name='tweet_like' value='" . $tweet['id'] . "' class='button_like_tweets'>Tweet liken</button> Geliked: " . $tweet['likes'].  "<br>" .
         "</form>" .
         "<form method='POST' action='delete.php'>" .
             "<input type='hidden' name='tweet_id' value='" . $tweet['id'] . "'>" .

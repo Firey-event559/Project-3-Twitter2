@@ -21,7 +21,7 @@ session_start();
     <h1  class="tweets_plaatsen">Tweets Aanmaken</h1>
     
      <form  class="tweet-tekst" action="tweet_logica.php"  method="post">
-      <textarea class="tweet_area"  name="tweet"cols="30" rows="10" ></textarea>
+      <textarea class="tweet_area"  name="tweet"cols="30" rows="10" required ></textarea >
         <input class="tweet_button" type="submit" name="submit-twitter-tweet" value="Plaatsen" >
 
     </form>

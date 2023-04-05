@@ -8,14 +8,14 @@
   <title>Document</title>
 </head>
 <body class="plaatsen">
-  <a href='../HTML/index.php'><img src="../img/foto-twitter.png" alt="logo" class="logo" width="45px" height="45px"> </a>
+  <a  href='../HTML/index.php'><img src="../img/foto-twitter.png" alt="logo" class="logo" width="45px" height="45px"> </a>
 <?php
 
 session_start();
 
 if (isset($_SESSION['gebruikersnaam'])){
   echo "<div class='account7'>". "ingelogd als: " . $_SESSION['gebruikersnaam'] . "</div>";
-    $_SESSION['account_id'];
+ $_SESSION['account_id'];
 } else {
 echo  "<div class='account7'> " .   "niet ingelogd"  . "</div>";
 }

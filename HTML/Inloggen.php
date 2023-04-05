@@ -21,9 +21,6 @@ if (isset ($_POST['inloggen'])){
     $gebruikersnaam = filter_input (INPUT_POST, "Gebruikersnaam", FILTER_SANITIZE_STRING);
      $wachtwoord = strip_tags($_POST['Wachtwoord']);
    
-
-    
-
     $query= $db -> prepare ("SELECT * FROM account WHERE  Gebruikersnaam  = :Gebruikersnaam");
 
     $query -> bindParam (":Gebruikersnaam", $gebruikersnaam);

@@ -102,7 +102,7 @@
 
 
 
-                <h1 class="Twitter-kloon">Twitter Kloon</h1>
+                <h1 class="Twitter-kloon2">Twitter Kloon</h1>
 
 
 

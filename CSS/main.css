@@ -941,14 +941,19 @@ button.terug_naar_hoofdpagina:hover{
   cursor: pointer;
  
 }
-h1.Twitter-kloon{
+h1.Twitter-kloon2{
   color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
-  margin-top: 20px;
-  margin-left: 20px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:-175px ;
 }
+ 
+  
+
+
 
 
 

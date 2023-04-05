@@ -19,7 +19,10 @@ require_once "../HTML/db.php";
 
 if (isset ($_POST['inloggen'])){
     $gebruikersnaam = filter_input (INPUT_POST, "Gebruikersnaam", FILTER_SANITIZE_STRING);
-    $wachtwoord =  $_POST['Wachtwoord'];
+     $wachtwoord = strip_tags($_POST['Wachtwoord']);
+   
+
+    
 
     $query= $db -> prepare ("SELECT * FROM account WHERE  Gebruikersnaam  = :Gebruikersnaam");
 

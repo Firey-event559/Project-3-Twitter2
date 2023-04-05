@@ -19,7 +19,7 @@
 
   if(isset($_POST['Aanmaken'])){
     $Gebruikersnaam = filter_input (INPUT_POST, 'Gebruikersnaam', FILTER_SANITIZE_STRING);
-    $email = filter_input (INPUT_POST, 'email', FILTER_SANITIZE_STRING);
+    $email = filter_input (INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
     $geboorteDatum = filter_input (INPUT_POST, 'geboorteDatum', FILTER_SANITIZE_STRING);
     $Wachtwoord =  password_hash($_POST['Wachtwoord'], PASSWORD_DEFAULT);
 

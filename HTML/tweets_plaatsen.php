@@ -8,7 +8,9 @@
   <title>Document</title>
 </head>
 <body class="plaatsen">
-  <a  href='../HTML/index.php'><img src="../img/foto-twitter.png" alt="logo" class="logo" width="45px" height="45px"> </a>
+  <a class="terug_tweet_plaatsen" href="../HTML/tweets.php"><button class="terug_button">Nog een tweet schrijven</button></a>
+  <a href='../HTML/index.php'><img src="../img/foto-twitter.png" alt="logo" class="logo" width="45px" height="45px"> </a>
+  
 <?php
 
 session_start();

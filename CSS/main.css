@@ -734,6 +734,9 @@ div.account2{
  justify-content: center;
   align-items: center;
 }
+button.button_delete_tweet:hover{
+cursor: pointer;
+}
 
 button.button_like_tweets{
  margin-top:60px ;
@@ -950,7 +953,46 @@ h1.Twitter-kloon2{
   align-items: center;
   margin-top:-175px ;
 }
+button.tweet10{
+  margin-top:100px;
+  padding: 12px;
+  width: 185%;
+  margin-left:-30px ;
+  padding-left: 20px;
+  background-color: white;
+  color: black;
+  border-radius: 3px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  border: 1px solid white;
+}
+button.tweet10:hover{
+  cursor: pointer;
+}
 
+button.terug_button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+ margin-left:17px ;
+  padding-left: 20px;
+  background-color: white;
+  color: black;
+  border-radius: 3px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  border: 1px solid white;
+}
+
+button.terug_button:hover{
+  cursor: pointer;
+ 
+}
+a.terug_tweet_plaatsen{
+  color: black;
+  text-decoration: none;
+}
   
 
 
